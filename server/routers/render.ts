@@ -8,7 +8,7 @@ export default (app: any) => {
   const statusCode = 200;
   const respond = false;
 
-  PageRouter.get('/demo', async (ctx: any) => {
+  PageRouter.get('/', async (ctx: any) => {
     ctx.res.statusCode = statusCode;
 
     /**

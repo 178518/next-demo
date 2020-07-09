@@ -22,8 +22,6 @@ export default class Layout extends Document {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="renderer" content="webkit" />
 
-        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <link href="/favicon.ico" rel="bookmark" type="image/x-icon" />
         <link rel="dns-prefetch" href="//sec.xiaodun.com" />
         <link rel="dns-prefetch" href="//portal-static.tongdun.cn" />
         <link rel="preconnect" href="//sec.xiaodun.com" />
