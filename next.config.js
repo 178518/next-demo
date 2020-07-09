@@ -92,7 +92,7 @@ module.exports = withBundleAnalyzer(withLess(withCSS({
     config.plugins.push(new ForkTsCheckerWebpackPlugin());
 
     // https://www.bookstack.cn/read/next.js-zh/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81.md
-    /*const originalEntry = config.entry;
+    const originalEntry = config.entry;
     config.entry = async () => {
       const entries = await originalEntry();
 
@@ -101,7 +101,7 @@ module.exports = withBundleAnalyzer(withLess(withCSS({
       }
 
       return entries;
-    };*/
+    };
 
     if (isServer) {
       /**

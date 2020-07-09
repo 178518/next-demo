@@ -1,4 +1,5 @@
 /* eslint no-extend-native: 0 */
+import 'core-js';
 
 // This file runs before React and Next.js core
 // This file is loaded for all browsers

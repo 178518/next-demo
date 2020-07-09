@@ -27,7 +27,7 @@ app.prepare()
      */
     const serverRouter = require('./routers/index').default(app);
 
-    const { favicon, compress, koaBody, applogger } = Middlewares;
+    const { compress, koaBody, applogger } = Middlewares;
 
     // 设置签名的 Cookie 密钥。
     server.keys = new KeyGrip(['sec_web', 'tongdun'], 'sha256');
@@ -50,7 +50,7 @@ app.prepare()
      * 越早记录越好
      */
     server.use(applogger);
-    server.use(favicon);
+    // server.use(favicon);
 
     server.use(serverRouter.routes()).use(serverRouter.allowedMethods());
 
