@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { PureComponent } from 'react';\n\nclass Footer extends PureComponent {\n  render() {\n    return __jsx(\"div\", null, \"Footer\");\n  }\n\n}\n\nexport default Footer;","map":null,"metadata":{},"sourceType":"module"}
