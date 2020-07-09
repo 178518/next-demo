@@ -2,8 +2,7 @@
   "name": "with-polyfills",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
-    "devn": "nodemon",
+    "dev": "nodemon",
     "build": "next build",
     "start": "next start"
   },
