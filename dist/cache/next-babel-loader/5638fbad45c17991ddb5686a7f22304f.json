@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React, { Component } from 'react';\nimport Header from \"../../components/header\";\nimport Footer from \"../../components/footer\";\nexport default class Index extends Component {\n  render() {\n    return __jsx(\"div\", null, \"Index\");\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

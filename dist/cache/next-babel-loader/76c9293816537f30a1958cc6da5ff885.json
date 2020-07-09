@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nconsole.log('Inside the /demo.js page');\nexport default function Home() {\n  return __jsx(\"div\", null, \"Hello World\");\n}","map":null,"metadata":{},"sourceType":"module"}
