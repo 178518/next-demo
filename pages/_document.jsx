@@ -1,18 +1,12 @@
 import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
-import commProps from './common/commProps';
 
 export default class Layout extends Document {
   static async getInitialProps(ctx) {
     //document只有在服务端渲染时候才会执行
     const initialProps = await Document.getInitialProps(ctx);
 
-    /*
-     * 静态导入，新增必须要重启
-     */
-    const { isMobile } = commProps(ctx);
-
-    return { ...initialProps, isMobile };
+    return { ...initialProps};
   }
 
   render() {

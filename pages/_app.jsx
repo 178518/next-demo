@@ -2,7 +2,6 @@ import App from 'next/app';
 import React, { Component } from 'react';
 import Head from 'next/head';
 import PcLayout from 'components/layout';
-import commProps from './common/commProps';
 
 const debug = require('debug')('app:App');
 
@@ -34,14 +33,6 @@ class InitApp extends App {
       //服务端执行
       debug('Exce In is %s', 'server');
     }
-
-    /**
-     * 公共属性获取
-     * @type {string}
-     */
-    const { isMobile } = commProps(ctx);
-
-    pageProps.isMobile = isMobile;
 
     return { pageProps };
   }
